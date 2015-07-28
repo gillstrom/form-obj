@@ -1,6 +1,6 @@
 {
   "name": "form-obj",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Convert an HTML form's input values into an object.",
   "license": "MIT",
   "repository": "gillstrom/form-obj",
