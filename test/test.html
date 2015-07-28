@@ -1,0 +1,38 @@
+<html>
+	<body>
+		<form>
+			<input type="text" name="text" value="text string"/>
+			<input type="number" name="number" value="123"/>
+			<input type="password" name="password" value="secret_password"/>
+			<input type="textarea" name="textarea" value="Writing a long textarea message"/>
+			<input type="date" name="date" value="1999-12-31"/>
+
+			<input type="checkbox" name="checkbox" value="checkbox 1"/>
+			<input type="checkbox" name="checkbox" value="checkbox 2" checked/>
+			<input type="checkbox" name="checkbox" value="checkbox 3" checked/>
+
+			<input type="radio" name="radio" value="radiobutton 1"/>
+			<input type="radio" name="radio" value="radiobutton 2" checked/>
+			<input type="radio" name="radio" value="radiobutton 3"/>
+
+			<select name="select">
+				<option value="first option">1</option>
+				<option value="second option" selected>2</option>
+				<option value="third option">3</option>
+			</select>
+
+			<select name="multiple" multiple>
+				<option value="volvo" selected>Volvo</option>
+				<option value="saab">Saab</option>
+				<option value="opel" selected>Opel</option>
+				<option value="audi">Audi</option>
+			</select>
+
+			<!--Should not be included-->
+			<input type="text" value="missing name should not be included"/>
+			<input type="text" name="disabled" value="disabled should not be included" disabled/>
+		</form>
+
+		<script src="tmp.js"></script>
+	</body>
+</html>

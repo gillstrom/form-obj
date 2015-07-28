@@ -1,0 +1,31 @@
+{
+  "name": "form-obj",
+  "version": "0.0.0",
+  "description": "Convert an HTML form's input values into an object.",
+  "license": "MIT",
+  "repository": "gillstrom/form-obj",
+  "author": {
+    "email": "andreasgillstrom@gmail.com",
+    "name": "Andreas Gillström",
+    "url": "github.com/gillstrom"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "convert",
+    "DOM",
+    "field",
+    "form",
+    "HTML",
+    "input",
+    "object",
+    "serialize"
+  ],
+  "dependencies": {
+    "obj-type": "^1.0.0"
+  }
+}
