@@ -26,16 +26,6 @@ formObj(form);
 ```
 
 
-## API
-
-### formObj(form)
-
-#### form
-
-*Required*  
-Type: `HTML DOM element`
-
-
 ## License
 
 MIT © [Andreas Gillström](http://github.com/gillstrom)
