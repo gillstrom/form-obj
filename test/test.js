@@ -5,4 +5,9 @@
 var formObj = require('../');
 var form = document.querySelector('form');
 
+form.addEventListener('submit', function (e) {
+	e.preventDefault();
+	console.log(formObj(form));
+});
+
 console.log(formObj(form));
