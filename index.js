@@ -11,7 +11,7 @@ module.exports = function (form) {
 		'file'
 	];
 
-	if (!objType(form).indexOf('element') || form.tagName.toLowerCase() !== 'form') {
+	if (!form || !objType(form).indexOf('element') || form.tagName.toLowerCase() !== 'form') {
 		throw new TypeError('Expected an HTML DOM form');
 	}
 
